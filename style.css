@@ -4,6 +4,18 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .flex{
     display: flex;
     flex-direction: row;
@@ -11,7 +23,7 @@
 }
 
 .nav-enlace{
-    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    background: -webkit-linear-gradient(to right, rgb(249, 26, 64), #373B44);
     color: white;
     padding: 10px 30px;
     text-decoration: none;
@@ -19,13 +31,13 @@
 }
 
 .nav-enlace:hover {
-    background:rgb(65,129,233);
+    background:rgb(167, 18, 42);
 }
 
 nav{
     background: #373B44;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, rgb(249, 26, 64), #443737);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(249, 26, 64), #443737); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 img{
@@ -40,7 +52,7 @@ article{
 
 .interaccion{
     display: inline-block;
-    background-color: #2091F9;
+    background-color: rgb(249, 26, 64);
     justify-self: center;
     color: #fff;
     text-decoration: none;
