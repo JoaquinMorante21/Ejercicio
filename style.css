@@ -31,13 +31,13 @@ ul{
 }
 
 .nav-enlace:hover {
-    background:rgb(167, 18, 42);
+    background:rgb(221, 39, 235);
 }
 
 nav{
     background: #373B44;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgb(249, 26, 64), #443737);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgb(249, 26, 64), #443737); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, rgb(221, 39, 235), #443737);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(221, 39, 235), #443737); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 img{
@@ -48,18 +48,25 @@ article{
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-image: url(https://wallpaperaccess.com/full/3509789.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    padding: 20px;
+    color: white;
 }
 
 .interaccion{
     display: inline-block;
-    background-color: rgb(249, 26, 64);
+    background-color: rgb(221, 39, 235);
     justify-self: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 13px 30px;
     border-radius: 32px;
-    margin: 25px;
-
+    margin: 100px;
+    
 }
 
 .imagen{
@@ -69,4 +76,13 @@ article{
 
 h1{
     padding: 25px;
+}
+
+
+
+.pie{
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(221, 39, 235), #443737);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(221, 39, 235), #443737); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
